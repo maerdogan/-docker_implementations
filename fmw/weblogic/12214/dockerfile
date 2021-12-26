@@ -1,4 +1,4 @@
-ENV ORACLE_BASE=/u01/oracle				\
+ENV 	ORACLE_BASE=/u01/oracle				\
 	DOMAIN_HOME=$ORACLE_BASE/wlsdomains		\			
 	DOMAIN_NAME="OBIEE_OCP"				\
 	ADMINSERVER_NAME="AdminServer"			\
