@@ -1,6 +1,6 @@
-/bin/find / -name "*log"
+/sbin/find / -name "*log"
 sleep 60
-/bin/find / -name "*log"
+/sbin/find / -name "*log"
 sleep 60
-/bin/find / -name "*log"
+/sbin/find / -name "*log"
 sleep 60
