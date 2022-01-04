@@ -7,7 +7,7 @@ RUN mkdir -p /u01/setups
 RUN yum -y install wget
 COPY analytics/setups/* /u01/setups/
 WORKDIR /u01/setups
-RUN chmod 755 /u01/setups/run.sh
+#RUN chmod 755 /u01/setups/run.sh
 #RUN /bin/sh /u01/setups/run.sh
 CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
 #RUN unzip fmw_12.2.1.4.0_infrastructure.jar.part01.rar
